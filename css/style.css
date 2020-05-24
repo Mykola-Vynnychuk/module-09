@@ -173,7 +173,6 @@ html {
 
 img {
   display: block;
-  max-width: 100%;
   height: auto;
 }
 
@@ -287,10 +286,7 @@ body {
   margin-bottom: 13px;
 }
 
-.flex-vertical {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.center {
   text-align: center;
 }
 
@@ -344,6 +340,7 @@ body {
 
 .card-image {
   border-radius: 50%;
+  margin: 0 auto;
 }
 
 .card-header {
@@ -359,6 +356,8 @@ body {
   font-weight: 300;
   width: 215px;
   color: #666666;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .partners-other-link {
